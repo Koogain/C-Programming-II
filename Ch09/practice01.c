@@ -16,7 +16,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-void input_record(char name, char id, char major, int year);
+void input_record();
 
 typedef struct student
 {
