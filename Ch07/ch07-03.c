@@ -1,23 +1,18 @@
 /* 학번 : 202511205
    이름 : 구가인
-   프로그램 명 : c programming 예제 07-02
+   프로그램 명 : c programming 예제 07-03
    날짜 : 2025.09.15
 */
 
 #include <stdio.h>
 
-#define ARR_SIZE 5
-
 int main(void)
 {
-	int arr[ARR_SIZE];
+	int arr[5] = { 1, 2, 3, 4, 5 };
 	int i;
 
-	for (i = 0; i < ARR_SIZE; i++)
-		arr[i]  = 0;
-
 	printf("arr =");
-	for (i = 0; i < ARR_SIZE; i++)
+	for (i = 0; i < 5; i++)
 		printf("%d ", arr[i]);
 	printf("\n");
 
