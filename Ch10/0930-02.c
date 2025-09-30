@@ -4,7 +4,7 @@ typedef struct point
 	int y;
 } Point;
 
-void* swqp(Point* pa, Point* pb)
+void * swqp(Point *pa, Point *pb)
 {
 	if (pa == NULL || pb == NULL)
 	{
