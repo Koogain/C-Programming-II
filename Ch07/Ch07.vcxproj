@@ -136,6 +136,11 @@
     <ClCompile Include="ch07-07.c" />
     <ClCompile Include="ch07-08.c" />
     <ClCompile Include="ch07-09.c" />
+    <ClCompile Include="ch07-10.c" />
+    <ClCompile Include="ch07-11.c" />
+    <ClCompile Include="ch07-12.c" />
+    <ClCompile Include="ch07-13.c" />
+    <ClCompile Include="ch07-14.c" />
     <ClCompile Include="ch07-15.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

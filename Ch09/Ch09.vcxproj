@@ -129,6 +129,14 @@
     <ClCompile Include="ch09-02.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="ch09-03.c" />
+    <ClCompile Include="ch09-04.c" />
+    <ClCompile Include="ch09-05.c" />
+    <ClCompile Include="ch09-06.c" />
+    <ClCompile Include="ch09-07.c" />
+    <ClCompile Include="ch09-08.c" />
+    <ClCompile Include="ch09-09.c" />
+    <ClCompile Include="ch09-10.c" />
     <ClCompile Include="ch09-11.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -146,9 +154,11 @@
     </ClCompile>
     <ClCompile Include="practice01.c">
       <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MultiThreadedDebugDLL</RuntimeLibrary>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
