@@ -124,6 +124,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1014.c" />
+    <ClCompile Include="ch11-01-02.c" />
+    <ClCompile Include="ch11-01-01.c" />
+    <ClCompile Include="ch11-02.c" />
+    <ClCompile Include="ch11-03.c" />
     <ClCompile Include="function.c" />
   </ItemGroup>
   <ItemGroup>
