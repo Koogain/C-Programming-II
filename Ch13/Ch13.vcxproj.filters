@@ -18,9 +18,33 @@
     <ClInclude Include="point.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13-01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13-02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13-08(main.c).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13-08(func.c).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13-03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13-06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13-07.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
