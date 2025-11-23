@@ -134,6 +134,7 @@
     <ClCompile Include="13-07.c" />
     <ClCompile Include="13-08(func.c).c" />
     <ClCompile Include="13-08(main.c).c" />
+    <ClCompile Include="assignment07.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
